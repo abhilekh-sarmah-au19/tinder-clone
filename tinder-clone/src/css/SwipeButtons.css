@@ -1,0 +1,31 @@
+.swipeButtons{
+    position: fixed;
+    bottom: 5vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.swipeButtons .MuiIconButton-root{
+    background-color: white;
+    box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) !important;
+}
+.icon_reply{
+    padding: 1vw !important;
+    color: yellow;
+}
+.icon_close{
+    padding: 1vw !important;
+    color: red;
+}
+.icon_rate{
+    padding: 1vw !important;
+    color: lightseagreen;
+}
+.icon_favorite{
+    padding: 1vw !important;
+    color: lightgreen;
+}
+.icon_flash{
+    padding: 1vw !important;
+    color: violet;
+}
